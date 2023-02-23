@@ -106,7 +106,6 @@ main{
   width: calc(100%/7);
   min-width: 230px;
   padding: 0px 2px;
-  border: 1px solid black;
 }
 
 /* Bonus */
