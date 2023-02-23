@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top-menu{
+  height: 70px;
+}
+
+.bottom-menu{
+  height: 100px;
+}
+
+main{
+  height: calc(100vh - 170px);
+  overflow: scroll;
+}
