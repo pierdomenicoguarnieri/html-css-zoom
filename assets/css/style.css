@@ -1,3 +1,4 @@
+/* General */
 *{
   margin: 0;
   padding: 0;
@@ -22,6 +23,7 @@ a:hover i{
   filter:drop-shadow(0px 0px 15px rgba(226, 225, 225, 0.733))
 }
 
+/* Utility */
 .w-100{
   width: 100%;
 }
@@ -68,6 +70,7 @@ a:hover i{
   justify-content: space-between;
 }
 
+/* Menu top */
 .top-menu{
   height: 70px;
 }
@@ -93,6 +96,7 @@ a:hover i{
   font-size: 16px;
 }
 
+/* Main */
 main{
   height: calc(100vh - 170px);
   overflow: scroll;
@@ -102,16 +106,22 @@ main{
   width: calc(100%/7);
   min-width: 230px;
   padding: 0px 2px;
+  border: 1px solid black;
+}
+
+/* Bonus */
+.user img{
+  border-radius: 10px;
 }
 
 .user .name{
   bottom: 10px;
-  left: 0;
+  left: 2px;
   color: white;
   font-size: 14px;
   font-weight: 500;
   text-transform: capitalize;
-  padding: 5px 8px;
+  padding: 5px 5px;
   background-color: rgba(128, 128, 128, 0.555);
 }
 
@@ -119,6 +129,7 @@ main{
   margin-right: 2px;
 }
 
+/* Manu bottom */
 .bottom-menu{
   height: 100px;
   background-color: #222222;
@@ -154,6 +165,17 @@ main{
   padding: 0 10px;
 }
 
+.bottom-menu .right-content button{
+  height: 100%;
+  padding: 0 20px;
+  border: none;
+  border-radius: none;
+  background-color: #4A4A4A;
+  font-weight: 700;
+  color: red;
+  cursor: pointer;
+}
+
 #not-center{
   padding-left: 10px;
 }
@@ -165,15 +187,4 @@ main{
 /* Bonus */
 a:hover #screen-share{
   filter:drop-shadow(0px 0px 15px #49c700d2)
-}
-
-.bottom-menu .right-content button{
-  height: 100%;
-  padding: 0 20px;
-  border: none;
-  border-radius: none;
-  background-color: #4A4A4A;
-  font-weight: 700;
-  color: red;
-  cursor: pointer;
 }
