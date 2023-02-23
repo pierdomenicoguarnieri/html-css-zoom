@@ -13,6 +13,12 @@ i{
   color: white;
 }
 
+a{
+  text-decoration: none;
+}
+
+
+
 .w-100{
   width: 100%;
 }
@@ -120,23 +126,37 @@ main{
   padding-left: 10px;
 }
 
-.icon-layout .icon{
+.icon{
   color: white;
 }
 
-.icon-layout .icon i{
+.icon i{
   font-size: 30px;
   margin-bottom: 5px;
 }
 
-.icon-layout .icon.description{
+.icon.description{
   font-size: 12px;
   font-weight: 500;
+  text-transform: capitalize;
 }
 
-.icon-layout .selector i{
+.selector i{
   font-size: 12px;
-  margin: 0 20px;
+  margin: 20px 10px 0 5px;
+  padding: 0;
+}
+
+.center-content .icon-container{
+  padding: 0 10px;
+}
+
+#not-center{
+  padding-left: 10px;
+}
+
+#screen-share{
+  color: #4AC700;
 }
 
 .bottom-menu .right-content button{
