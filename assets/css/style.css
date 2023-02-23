@@ -17,7 +17,10 @@ a{
   text-decoration: none;
 }
 
-
+/* Bonus */
+a:hover i{
+  filter:drop-shadow(0px 0px 15px rgba(226, 225, 225, 0.733))
+}
 
 .w-100{
   width: 100%;
@@ -157,6 +160,11 @@ main{
 
 #screen-share{
   color: #4AC700;
+}
+
+/* Bonus */
+a:hover #screen-share{
+  filter:drop-shadow(0px 0px 15px #49c700d2)
 }
 
 .bottom-menu .right-content button{
