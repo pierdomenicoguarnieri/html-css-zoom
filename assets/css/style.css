@@ -103,7 +103,7 @@ main{
 }
 
 .user{
-  width: calc(100%/7);
+  width: 230px;
   min-width: 230px;
   padding: 0px 2px;
 }
