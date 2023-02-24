@@ -116,9 +116,11 @@ main{
   object-fit: cover;
 }
 
+/* Bonus */
 img.talking{
   border: 1px solid #4AC700;
 }
+/* /Bonus */
 
 .user .name{
   bottom: 10px;
