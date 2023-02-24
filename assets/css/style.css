@@ -80,8 +80,9 @@ a:hover i{
   right: 5px;
 }
 
-.top-btn-container a{
+.top-btn-container button{
   text-decoration: none;
+  border: none;
   padding: 5px 2px;
   color: white;
   background-color: #4A4A4A;
@@ -89,6 +90,7 @@ a:hover i{
   font-weight: 700;
   text-transform: capitalize;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .top-btn-container i{
@@ -144,7 +146,7 @@ img.talking{
   padding-bottom: 20px;
 }
 
-.left-content{
+.left-footer{
   padding-left: 10px;
 }
 
@@ -169,11 +171,11 @@ img.talking{
   padding: 0;
 }
 
-.center-content .icon-container{
+.center-footer .icon-container{
   padding: 0 10px;
 }
 
-.bottom-menu .right-content button{
+.bottom-menu .right-footer button{
   height: 100%;
   padding: 0 20px;
   border: none;
