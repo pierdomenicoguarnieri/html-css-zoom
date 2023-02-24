@@ -104,13 +104,20 @@ main{
 
 .user{
   width: 230px;
+  height: 180px;
   min-width: 230px;
-  padding: 0px 2px;
+  padding: 2px 2px;
 }
 
-/* Bonus */
 .user img{
+  /* Bonus */
   border-radius: 10px;
+  /* /Bonus */
+  object-fit: cover;
+}
+
+img.talking{
+  border: 1px solid #4AC700;
 }
 
 .user .name{
