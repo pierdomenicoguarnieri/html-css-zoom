@@ -50,7 +50,7 @@ a:hover i{
   display: flex;
 }
 
-.column{
+.direction-column{
   flex-direction: column;
 }
 
